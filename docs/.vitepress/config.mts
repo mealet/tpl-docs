@@ -32,6 +32,24 @@ export default defineConfig({
           { text: 'Hello World!', link: '/getting-started/hello-world' },
           { text: 'Following Documentation', link: '/getting-started/how-to-follow-docs' }
         ]
+      },
+
+      {
+        text: 'Basics',
+        items: [
+          { text: 'Types', link: '/basic/types' },
+          { text: 'Variables', link: '/basic/variables' },
+          { text: 'Comments', link: '/basic/comments' },
+        ]
+      },
+
+      {
+        text: 'Operations',
+        items: [
+          { text: 'Binary', link: '/operations/binary' },
+          { text: 'Boolean', link: '/operations/boolean' },
+          { text: 'Bitwise', link: '/operations/bitwise' },
+        ]
       }
     ],
 

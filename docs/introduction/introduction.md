@@ -9,6 +9,8 @@ The style of language is similar as C, but with more simplified rules and princi
 **Toy Programming Language** - is a simple compiling language, based on LLVM. <br/>
 Project created to learn and show other people how to create compilers in Rust 🦀
 
+_P.S: Latest documentation update on **v0.3.5** compiler's version_
+
 ## Project Architecture
 * Main Programming Language: **[Rust](https://www.rust-lang.org/)**
 * Code Generator: **[LLVM](https://llvm.org)**

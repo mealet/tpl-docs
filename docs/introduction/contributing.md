@@ -13,8 +13,8 @@ Before that please ensure the bug wasn't already reported by another user. <br/>
 **Okay, here's some guidelines for you:**
  
 > ### Ensure that...
-> * you'r code follows the code style of this project
-> * you'r code isn't breaking program or any parts of it
+> * your code follows the code style of this project
+> * your code isn't breaking program or any parts of it
 > * you've written readable code
 >
 > ### Please do...

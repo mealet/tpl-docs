@@ -12,7 +12,6 @@ Project created to learn and show other people how to create compilers in Rust ð
 
 ## Project Architecture
 ::: info
-
 * Main Programming Language: **[Rust](https://www.rust-lang.org/)**
 * Code Generator: **[LLVM](https://llvm.org)**
 * LLVM Wrapper Library: **[Inkwell](https://github.com/TheDan64/inkwell)**
@@ -28,3 +27,9 @@ Code is separated to 4 tasks and modules for structured code processing and erro
 2. `tpl-parser` - Parsing Analyzer, a tool which turns tokens into distributed abstract syntax tree with priorities.
 3. `tpl-ir` - Code Generator with type checker and LLVM wrapper for compiling AST into module.
 4. `tplc` - Main part of all project, which contains user-side tools: cli, config parser, llvm module compiler and object linker
+
+## Others
+- Github Repository: https://github.com/mealet/tpl-lang
+- License: https://github.com/mealet/tpl-lang/blob/main/LICENSE
+- Releases: https://github.com/mealet/tpl-lang/releases
+- Issues: https://github.com/mealet/tpl-lang/issues

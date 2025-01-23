@@ -1,12 +1,12 @@
-[Issues]: https://github.com/mealet/tpl-lang/issues
+[Project's Issues]: https://github.com/mealet/tpl-lang/issues
 [Contacts]: https://mealet.vercel.app/contacts
 
-# Contributing to `tpl-lang`
-Hello! Thank you for you'r interest in `tpl-lang` project! <br/>
+# Contribution
+Thank you for your interest in project's life! <br/>
 Here's contribution guide for you: <br/>
 
 ## Found a Bug?
-For creating bug report just open issue in Project's [Issues]. <br/>
+For creating bug report just open issue in [Project's Issues]. <br/>
 Before that please ensure the bug wasn't already reported by another user. <br/>
 
 ## Want to Submit a Pull Request?

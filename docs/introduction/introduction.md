@@ -9,13 +9,19 @@ The style of language is similar as C, but with more simplified rules and princi
 **Toy Programming Language** - is a simple compiling language, based on LLVM. <br/>
 Project created to learn and show other people how to create compilers in Rust 🦀
 
-_P.S: Latest documentation update was on **v0.3.5** compiler's version_
 
 ## Project Architecture
+::: info
+
 * Main Programming Language: **[Rust](https://www.rust-lang.org/)**
 * Code Generator: **[LLVM](https://llvm.org)**
 * LLVM Wrapper Library: **[Inkwell](https://github.com/TheDan64/inkwell)**
 * Colored Terminal Library: **[Colored](https://crates.io/crates/colored)**
+----
+- Latest compiler version: `v0.3.5` <br/>
+- LLVM version: `18.1.6` <br/>
+- Inkwell version: `0.5.0` <br/>
+:::
 
 Code is separated to 4 tasks and modules for structured code processing and error handling:
 1. `tpl-lexer` - Lexical Analyzer with abstracted functionality of processing source code into tokens.

@@ -39,6 +39,7 @@ export default defineConfig({
         items: [
           { text: 'Types', link: '/basic/types' },
           { text: 'Variables', link: '/basic/variables' },
+          { text: 'Imports', link: '/basic/imports' },
           { text: 'Comments', link: '/basic/comments' },
         ]
       },
@@ -64,8 +65,10 @@ export default defineConfig({
       {
         text: 'Functions',
         items: [
+          { text: 'Function Calls', link: 'functions/calls' },
           { text: 'Built-in', link: 'functions/built-in' },
           { text: 'User Defined', link: 'functions/user-defined' },
+          { text: 'Closures', link: 'functions/closures' },
         ]
       }
     ],

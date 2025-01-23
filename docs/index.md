@@ -12,7 +12,7 @@ hero:
       link: /introduction/introduction
     - theme: alt
       text: Examples
-      link: /getting-started/examples
+      link: /getting-started/installation
 
 features:
   - title: Simple

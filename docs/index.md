@@ -11,7 +11,7 @@ hero:
       text: Get Started
       link: /introduction/introduction
     - theme: alt
-      text: Examples
+      text: Installation
       link: /getting-started/installation
 
 features:

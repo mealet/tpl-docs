@@ -26,6 +26,7 @@ print(2 + 2 * 2);
 ```
 > 6
 
+-----
 Print also supports concatenation:
 
 ```tpl-lang
@@ -33,6 +34,7 @@ print("The answer is: ", 5 * 5)
 ```
 > The answer is: 25
 
+-----
 Variables? Why not!
 
 ```tpl-lang

@@ -50,6 +50,23 @@ export default defineConfig({
           { text: 'Boolean', link: '/operations/boolean' },
           { text: 'Bitwise', link: '/operations/bitwise' },
         ]
+      },
+
+      {
+        text: 'Constructions',
+        items: [
+          { text: 'If-Else', link: '/constructions/if-else' },
+          { text: 'While', link: '/constructions/while' },
+          { text: 'For', link: '/constructions/for' },
+        ]
+      },
+
+      {
+        text: 'Functions',
+        items: [
+          { text: 'Built-in', link: 'functions/built-in' },
+          { text: 'User Defined', link: 'functions/user-defined' },
+        ]
       }
     ],
 

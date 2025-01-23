@@ -25,6 +25,8 @@ print(10 / 2);
 > 20 <br/>
 > 5 <br/>
 
+----
+
 Binary assignment operations:
 ```tpl-lang
 int32 a = 10;

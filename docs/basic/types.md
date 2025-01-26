@@ -11,8 +11,9 @@ Most of them have size, range and analogue in C (because of LLVM backend) <br/>
 | int32 | 32 | 32 bits signed integer type | int | **-2 147 483 648** to **2 147 483 647** |
 | int64 | 64 | 64 bits signed integer type | long | **-9 223 372 036 854 775 808** to **9 223 372 036 854 775 807** |
 | bool | 1 | Boolean type (true - 1, false - 0) | bool | **0** to **1** |
+| char | 1 | Char type | char | **0** to **255**
 | str | 8 | String type | char* | - |
-| void | 1 | Void type (for functions) | void | - |
+| void | 1 | Void type (just _null_ value) | void | - |
 | array | - | Array of any type | int var[], char var[], bool var[]... | - |
 | fn | - | Function/Closures type | - | - |
 | auto | - | Automatically defines the type | - | - |
@@ -46,6 +47,7 @@ bool any_errors = false;
 ```tpl-lang
 void variable;
 void another_variable = some_void_func();
+void null_val = null;
 ```
 
 **Arrays:**

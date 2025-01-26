@@ -4,8 +4,18 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Toy Programming Language",
   description: "Simple, but working",
+  lastUpdated: true,
+
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+
+    lastUpdated: {
+      text: 'Last updated',
+      formatOptions: {
+        dateStyle: 'medium',
+        timeStyle: 'short'
+      }
+    },
 
     search: {
       provider: 'local'
@@ -37,6 +47,8 @@ export default defineConfig({
       {
         text: 'Basics',
         items: [
+          { text: 'Numbers', link: '/basic/numbers' },
+          { text: 'Strings', link: '/basic/strings' },
           { text: 'Types', link: '/basic/types' },
           { text: 'Variables', link: '/basic/variables' },
           { text: 'Imports', link: '/basic/imports' },
@@ -59,6 +71,7 @@ export default defineConfig({
           { text: 'If-Else', link: '/constructions/if-else' },
           { text: 'While', link: '/constructions/while' },
           { text: 'For', link: '/constructions/for' },
+          { text: 'Slice', link: '/constructions/slice' },
         ]
       },
 

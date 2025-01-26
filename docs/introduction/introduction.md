@@ -17,7 +17,7 @@ Project created to learn and show other people how to create compilers in Rust ð
 * LLVM Wrapper Library: **[Inkwell](https://github.com/TheDan64/inkwell)**
 * Colored Terminal Library: **[Colored](https://crates.io/crates/colored)**
 ----
-- Latest compiler version: `v0.3.5` <br/>
+- Latest compiler version: `v0.3.6` <br/>
 - LLVM version: `18.1.6` <br/>
 - Inkwell version: `0.5.0` <br/>
 :::

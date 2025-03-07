@@ -7,7 +7,7 @@ hero:
   # text: "made in Rust"
   tagline: Simple, Fast, Clear
   image:
-    src: /logo.png
+    src: https://raw.githubusercontent.com/mealet/tpl-docs/refs/heads/master/docs/logo.png
     alt: tpl-lang
   actions:
     - theme: brand

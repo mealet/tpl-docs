@@ -6,6 +6,9 @@ hero:
   name: "Toy Programming Language"
   # text: "made in Rust"
   tagline: Simple, Fast, Clear
+  image:
+    src: /logo.png
+    alt: tpl-lang
   actions:
     - theme: brand
       text: Get Started

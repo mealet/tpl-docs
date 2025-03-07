@@ -8,6 +8,7 @@ export default defineConfig({
 
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    logo: "/logo.png",
 
     lastUpdated: {
       text: 'Last updated',

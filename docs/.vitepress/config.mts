@@ -9,6 +9,8 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
 
+    logo: "https://raw.githubusercontent.com/mealet/tpl-docs/refs/heads/master/docs/logo.png",
+
     lastUpdated: {
       text: 'Last updated',
       formatOptions: {
